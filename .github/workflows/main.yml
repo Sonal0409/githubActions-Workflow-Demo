@@ -4,6 +4,11 @@ on:
     branches:
       - main 
 jobs:
+  reviewJob:
+   runs-on: ubuntu-latest
+   steps:
+    - name: review the code 
+      run: echo "review the code"
   buildJob:
    runs-on: ubuntu-latest
    steps:
